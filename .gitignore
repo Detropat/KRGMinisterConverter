@@ -1,3 +1,4 @@
 # Excluding IDE
 .idea
 /venv
+/output/*
