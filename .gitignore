@@ -2,3 +2,4 @@
 .idea
 /venv
 /output/*.json
+/input/*.txt
