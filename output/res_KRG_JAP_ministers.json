@@ -1,0 +1,169 @@
+{
+  "ideas": {
+    "head_of_government": {
+      "JAP_HoG_Yoriyasu_Arima": {
+        "allowed": {
+          "tag": "JAP"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Arima_unavailable"
+          }
+        },
+        "cost": 150,
+        "removal_cost": -1,
+        "traits": [
+          "head_of_government_prime_minister",
+          "paternal_autocrat",
+          "pragmatic_statesman"
+        ]
+      },
+      "JAP_HoG_Shigeru_Yoshida": {
+        "allowed": {
+          "tag": "JAP"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Yoshida_unavailable"
+          }
+        },
+        "cost": 150,
+        "removal_cost": -1,
+        "traits": [
+          "head_of_government_prime_minister",
+          "social_liberal",
+          "local_tyrant"
+        ]
+      },
+      "JAP_HoG_Ichiro_Hatoyama": {
+        "allowed": {
+          "tag": "JAP"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Hatoyama_unavailable"
+          }
+        },
+        "cost": 150,
+        "removal_cost": -1,
+        "traits": [
+          "head_of_government_prime_minister",
+          "social_conservative",
+          "backroom_backstabber"
+        ]
+      },
+      "JAP_HoG_Hideki_Tojo": {
+        "allowed": {
+          "tag": "JAP"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Tojo_unavailable"
+          }
+        },
+        "cost": 150,
+        "removal_cost": -1,
+        "traits": [
+          "head_of_government_prime_minister",
+          "national_populist",
+          "dictator"
+        ]
+      }
+    },
+    "foreign_minister": {
+      "JAP_FM_Shigeru_Yoshida": {
+        "allowed": {
+          "tag": "JAP"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Yoshida_unavailable"
+          }
+        },
+        "cost": 150,
+        "removal_cost": -1,
+        "traits": [
+          "foreign_minister",
+          "social_liberal",
+          "biased_intellectual"
+        ]
+      }
+    },
+    "economy_minister": {
+      "JAP_EM_Seihin_Ikeda": {
+        "allowed": {
+          "tag": "JAP"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Seihin_unavailable"
+          }
+        },
+        "cost": 150,
+        "removal_cost": -1,
+        "traits": [
+          "economy_minister_finance_minister",
+          "market_liberal",
+          "bank_president"
+        ]
+      }
+    },
+    "justice_minister": {
+      "JAP_JM_Okinori_Kaya": {
+        "allowed": {
+          "tag": "JAP"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Kaya_unavailable"
+          }
+        },
+        "cost": 150,
+        "removal_cost": -1,
+        "traits": [
+          "justice_minister",
+          "authoritarian_democrat",
+          "corrupt_lawyer"
+        ]
+      }
+    },
+    "interior_minister": {
+      "JAP_IM_Ichiro_Hatoyama": {
+        "allowed": {
+          "tag": "JAP"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Hatoyama_unavailable"
+          }
+        },
+        "cost": 150,
+        "removal_cost": -1,
+        "traits": [
+          "interior_minister_home_minister",
+          "social_conservative",
+          "man_of_the_people"
+        ]
+      }
+    },
+    "head_of_intel": {
+      "JAP_HoI_Hideki_Tojo": {
+        "allowed": {
+          "tag": "JAP"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Tojo_unavailable"
+          }
+        },
+        "cost": 150,
+        "removal_cost": -1,
+        "traits": [
+          "head_of_intel_kenpeitai",
+          "national_populist",
+          "political_specialist"
+        ]
+      }
+    }
+  }
+}

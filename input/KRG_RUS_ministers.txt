@@ -1,0 +1,162 @@
+################
+####  Iran  ####
+################
+
+ideas = {
+	head_of_government = {
+		RUS_hog_radsoc_lenoid_brezhnev = {
+			allowed  = { original_tag = RUS }
+			available = {
+			}
+
+			removal_cost = -1
+
+			cost = 150
+			picture = hog_radsoc_lenoid_brezhnev
+			
+			traits = { 
+			head_of_government_vozhd
+			radical_socialist
+			ambitious_union_boss
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_hog_authdem_georgiy_vernadsky = {
+			allowed  = { original_tag = RUS }
+			available = {
+			}
+
+			removal_cost = -1
+
+			cost = 150
+			picture = hog_authdem_georgiy_vernadsky
+			
+			traits = { 
+			head_of_government_vozhd
+			authoritarian_democrat
+			politically_connected
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_hog_authdem_petro_grigorenko = {
+			allowed  = { original_tag = RUS }
+			available = {
+			}
+
+			removal_cost = -1
+
+			cost = 150
+			picture = hog_authdem_petro_grigorenko
+			
+			traits = { 
+			head_of_government_vozhd
+			authoritarian_democrat
+			reformist_soldier
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_hog_pataut_nikolai_vatutin = {
+			allowed  = { original_tag = RUS }
+			available = {
+			}
+
+			removal_cost = -1
+
+			cost = 150
+			picture = hog_pataut_nikolai_vatutin
+			
+			traits = { 
+			head_of_government_vozhd
+			paternal_autocrat
+			respected_war_hero
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_hog_natpop_andrey_zankevich = {
+			allowed  = { original_tag = RUS }
+			available = {
+			}
+
+			removal_cost = -1
+
+			cost = 150
+			picture = hog_natpop_andrey_zankevich
+			
+			traits = { 
+			head_of_government_vozhd
+			national_populist
+			political_protege
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_hog_natpop_boris_savinkov = {
+			allowed  = { original_tag = RUS }
+			available = {
+			}
+
+			removal_cost = -1
+
+			cost = 150
+			picture = hog_natpop_boris_savinkov
+			
+			traits = { 
+			head_of_government_vozhd
+			national_populist
+			dictator
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_hog_natpop_dmitri_shepilov = {
+			allowed  = { original_tag = RUS }
+			available = {
+			}
+
+			removal_cost = -1
+
+			cost = 150
+			picture = hog_natpop_dimitri_shepilov
+			
+			traits = { 
+			head_of_government_vozhd
+			national_populist
+			backroom_backstabber
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_hog_natpop_pavel_gorgulov = {
+			allowed  = { original_tag = RUS }
+			available = {
+			}
+
+			removal_cost = -1
+
+			cost = 150
+			picture = hog_natpop_pavel_gorgulov
+			
+			traits = { 
+			head_of_government_vozhd
+			national_populist
+			dictator
+			}
+			cancel_if_invalid = yes
+		}
+
+		RUS_hog_natpop_yuri_shirinsky_shikhmatov = {
+			allowed  = { original_tag = RUS }
+			available = {
+			}
+
+			removal_cost = -1
+
+			cost = 150
+			picture = hog_natpop_yuri_shrinsky_shikhmatov
+			
+			traits = { 
+			head_of_government_vozhd
+			national_populist
+			local_tyrant
+			}
+			cancel_if_invalid = yes
+		}
+	}
+}

@@ -1,0 +1,1130 @@
+{
+  "ideas": {
+    "head_of_government": {
+      "AutSoc_Tim_Buck": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Buck_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "authoritarian_socialist",
+          "backroom_backstabber"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Tommy_Douglas": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "T_Douglas_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "social_democrat",
+          "political_protege"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_M_J_Coldwell": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Coldwell_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "social_democrat",
+          "spiritual_leader"
+        ],
+        "cancel_if_invalid": true
+      },
+      "RevRep_Peter_C_Newman": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Newman_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "revolutionary_republican",
+          "backroom_backstabber"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Louis_StLaurent_hog": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "StLaurent_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "social_liberal",
+          "silent_workhorse"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Lester_B_Pearson_hog": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Pearson_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "social_liberal",
+          "reformist_soldier"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MarkLib_Mackenzie_King": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "King_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "CAN_MarkLib_Mackenzie_King",
+        "traits": [
+          "head_of_government_prime_minister",
+          "market_liberal",
+          "pragmatic_statesman"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MarkLib_John_Diefenbaker": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Diefenbaker_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "market_liberal",
+          "naive_optimist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocCon_George_A_Drew": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Drew_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "social_conservative",
+          "politically_connected"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocCon_John_Diefenbaker": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Diefenbaker_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "social_conservative",
+          "naive_optimist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocCon_Douglas_Jung": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Jung_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "social_conservative",
+          "reformist_soldier"
+        ],
+        "cancel_if_invalid": true
+      },
+      "AuthDem_Kingsley_Wood": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "K_Wood_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "authoritarian_democrat",
+          "old_air_marshal"
+        ],
+        "cancel_if_invalid": true
+      },
+      "AuthDem_WAC_Bennett": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Bennett_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "head_of_government_prime_minister",
+          "authoritarian_democrat",
+          "ambitious_union_boss"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "foreign_minister": {
+      "AutSoc_Stanley_B_Ryerson": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Ryerson_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "authoritarian_socialist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_William_H_Temple": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Temple_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "social_democrat",
+          "ideological_crusader"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_F_R_Scott": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Scott_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "social_democrat",
+          "biased_intellectual"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Joseph_W_Noseworthy": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Noseworthy_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "social_democrat",
+          "apologetic_clerk"
+        ],
+        "cancel_if_invalid": true
+      },
+      "RevRep_Ted_McWhinney": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "McWhinney_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "revolutionary_republican"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Lester_B_Pearson_fm": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Pearson_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "CAN_SocLib_Lester_B_Pearson_fm",
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "social_liberal",
+          "master_compromiser"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Paul_Martin_Sr": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Martin_Sr_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "social_liberal",
+          "great_compromiser"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MarkLib_Sidney_E_Smith": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "E_Smith_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "market_liberal"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MarkLib_Howard_C_Green": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Green_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "market_liberal"
+        ],
+        "cancel_if_invalid": true
+      },
+      "AuthDem_Robert_N_Thompson": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Thompson_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "foreign_minister_foreign_affairs",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "economy_minister": {
+      "AutSoc_Stewart_Smith": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "S_Smith_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "authoritarian_socialist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Hazen_Argue": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Argue_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "social_democrat",
+          "welfare_proponent"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Ross_Thatcher": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Thatcher_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "social_democrat",
+          "reformer"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Percy_Wright": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Wright_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "social_democrat",
+          "resource_industrialist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Clarence_Gillis": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Gillis_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "social_democrat",
+          "planned_economy_proponent"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Douglas_Abbott": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Abbott_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "social_liberal",
+          "balanced_budget_economy"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Mitchell_Sharp": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Sharp_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "social_liberal",
+          "mixed_economy"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_C_D_Howe": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Howe_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "CAN_SocLib_C_D_Howe",
+        "traits": [
+          "economy_minister_finance_minister",
+          "market_liberal",
+          "administrative_genius"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MarkLib_Donald_Flemming": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Flemming_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "market_liberal"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocCon_George_Nowlan": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Nowlan_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "social_conservative"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocCon_Frank_T_Stanfield": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Stanfield_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "social_conservative"
+        ],
+        "cancel_if_invalid": true
+      },
+      "AuthDem_C_H_Douglas": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "H_Douglas_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "AuthDem_Ernest_Manning": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Manning_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "economy_minister_finance_minister",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "interior_minister": {
+      "AutSoc_Fred_Rose": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Rose_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "authoritarian_socialist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "AutSoc_Robert_Laxer": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Laxer_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "authoritarian_socialist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_David_Lewis": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Lewis_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "social_democrat",
+          "security_expert"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Ted_Jolliffe": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Jolliffe_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "social_democrat",
+          "efficient_sociopath"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_William_Bryce": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Bryce_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "social_democrat",
+          "health_and_safety"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Louis_StLaurent_im": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "StLaurent_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "CAN_SocLib_Louis_StLaurent_im",
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "social_liberal",
+          "silent_lawyer"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Thomas_Crerar": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Crerar_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "social_liberal",
+          "man_of_the_people"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Jean_Lesage": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Lesage_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "social_liberal"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MarkLib_Ellen_Fairclough": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Fairclough_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "market_liberal",
+          "compassionate_gentleman"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MarkLib_Davie_Fulton": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Fulton_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "social_liberal"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocCon_Thomas_L_Church": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Church_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "social_conservative",
+          "secret_police_chief"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocCon_Walter_Dinsdale": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Dinsdale_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "social_conservative"
+        ],
+        "cancel_if_invalid": true
+      },
+      "AuthDem_Solon_E_Low": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Low_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "AuthDem_Chuck_Crate": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Crate_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "interior_minister_intergovernmental_minister",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "justice_minister": {
+      "AutSoc_Dorise_Nielsen": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Nielsen_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "authoritarian_socialist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Agnes_MacPhail": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "MacPhail_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "social_democrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Rae_Luckock": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Luckock_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "social_democrat",
+          "judicial_ideologue"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Angus_MacInnis": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "MacInnis_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "social_democrat",
+          "impartial_judge"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocDem_Stanley_Knowles": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Knowles_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "social_democrat",
+          "constitutional_magistrate"
+        ],
+        "cancel_if_invalid": true
+      },
+      "RevRep_Alistair_Horne": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Horne_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "revolutionary_republican"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Louis_StLaurent_jm": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "StLaurent_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "social_liberal",
+          "impartial_judge"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocLib_Stuart_Garson": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Garson_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "CAN_SocLib_Stuart_Garson",
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "social_liberal",
+          "crime_fighter"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MarkLib_James_L_Ilsley": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Ilsley_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "market_liberal"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocCon_William_J_Browne": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Browne_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "social_conservative"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SocCon_Leon_Balcher": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Balcher_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "social_conservative",
+          "constitutional_magistrate"
+        ],
+        "cancel_if_invalid": true
+      },
+      "AuthDem_Real_Caouette": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "Caouette_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "traits": [
+          "justice_minister_minister_justice_attorney_general",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "head_of_intel": {
+      "SocLib_Stuart_Wood": {
+        "allowed": {
+          "original_tag": "CAN"
+        },
+        "visible": {
+          "NOT": {
+            "has_country_flag": "S_Wood_unavailable"
+          }
+        },
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "CAN_SocLib_Stuart_Wood",
+        "traits": [
+          "head_of_intel_solicitor_commissioner",
+          "social_liberal"
+        ]
+      }
+    }
+  }
+}

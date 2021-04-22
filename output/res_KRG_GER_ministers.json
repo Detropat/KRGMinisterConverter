@@ -1,0 +1,526 @@
+{
+  "ideas": {
+    "head_of_government": {
+      "GER_hog_marklib_hjalmar_schacht": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_marklib_hjalmar_schacht",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "market_liberal",
+          "economic_miracleworker"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_soccon_hanns_seidel": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_soccon_hanns_seidel",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "social_conservative",
+          "naive_optimist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_soccon_heinrich_bruning": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_soccon_heinrich_bruning",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "social_conservative",
+          "pragmatic_statesman"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_soccon_jakob_kaiser": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_soccon_jakob_kaiser",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "social_conservative",
+          "political_protege"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_soccon_joesph_wirth": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_soccon_joseph_wirth",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "social_conservative",
+          "happy_amateur"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_authdem_carl_friedrich_goerdeler": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_authdem_carl_friedrich_goerdeler",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "authoritarian_democrat",
+          "the_good_doctor"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_authdem_erwin_rommel": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_authdem_erwin_rommel",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "authoritarian_democrat",
+          "respected_war_hero"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_authdem_hans_von_dohnanyi": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_authdem_hans_von_dohnanyi",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "authoritarian_democrat",
+          "political_protege"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_authdem_robert_lehr": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_authdem_robert_lehr",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "authoritarian_democrat",
+          "silent_workhorse"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_pataut_eberhard_von_mackensen": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_pataut_eberhard_von_mackensen",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "paternal_autocrat",
+          "subjugator_of_britain"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_pataut_eugen_ott": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_pataut_eugen_ott",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "paternal_autocrat",
+          "reformist_soldier"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_pataut_ferdinand_von_bredow": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_pataut_ferdinand_von_bredow",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "paternal_autocrat",
+          "flamboyant_tough_guy"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_pataut_hans_jurgen_von_blumenthal": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_pataut_hans_jurgen_von_blumenthal",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "paternal_autocrat",
+          "kaisertrue_reichskanzler"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_pataut_herbert_von_bose": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_pataut_herbert_von_bose",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "paternal_autocrat",
+          "backroom_backstabber"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hog_pataut_johannes_popitz": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hog_pataut_johannes_popitz",
+        "traits": [
+          "head_of_government_reichskanzler",
+          "paternal_autocrat",
+          "corporate_suit"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "foreign_minister": {
+      "GER_fm_marklib_otto_kiep": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "foreign_minister",
+          "market_liberal",
+          "master_compromiser"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_fm_soccon_franz_von_papen": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "fm_soccon_franz_von_papen",
+        "traits": [
+          "foreign_minister",
+          "social_conservative",
+          "iron_fisted_brute"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_fm_soccon_heinrich_von_brentano": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "foreign_minister",
+          "social_conservative",
+          "ideological_crusader"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_fm_soccon_konrad_adenauer": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "foreign_minister",
+          "social_conservative",
+          "great_compromiser"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_fm_authdem_ernst_von_weizsacker": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "fm_authdem_ernst_von_weizsacker",
+        "traits": [
+          "foreign_minister",
+          "authoritarian_democrat",
+          "tricky_lawyer"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_fm_authdem_henry_kissinger": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "foreign_minister",
+          "authoritarian_democrat",
+          "master_compromiser"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_fm_pataut_erwin_ettel": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "fm_pataut_erwin_ettel",
+        "traits": [
+          "foreign_minister",
+          "paternal_autocrat",
+          "general_staffer"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_fm_pataut_eugen_ott": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "fm_pataut_eugen_ott",
+        "traits": [
+          "foreign_minister",
+          "paternal_autocrat",
+          "biased_intellectual"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_fm_pataut_konstantin_von_neurath": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "fm_pataut_konstantin_von_neurath",
+        "traits": [
+          "foreign_minister",
+          "paternal_autocrat",
+          "the_cloak_n_dagger_schemer"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_fm_pataut_ulrich_von_hassell": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "fm_pataut_ulrich_von_hassell",
+        "traits": [
+          "foreign_minister",
+          "paternal_autocrat",
+          "apologetic_clerk"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "economy_minister": {
+      "GER_em_soccon_ludwig_erhard": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "economy_minister",
+          "social_conservative",
+          "administrative_genius"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_em_pataut_johannes_popitz": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "em_pataut_johannes_popitz",
+        "traits": [
+          "economy_minister",
+          "paternal_autocrat",
+          "balanced_budget_economy"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "justice_minister": {
+      "GER_jm_authdem_franz_schlegelberger": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "jm_authdem_franz_schlegelberger",
+        "traits": [
+          "justice_minister",
+          "authoritarian_democrat",
+          "strict_judge"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_jm_pataut_otto_georg_thierack": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "justice_minister",
+          "paternal_autocrat",
+          "corrupt_lawyer"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "interior_minister": {
+      "GER_im_authdem_erwin_rommel": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "interior_minister",
+          "authoritarian_democrat",
+          "man_of_the_people"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_im_authdem_manfred_von_richtofen": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "interior_minister",
+          "authoritarian_democrat",
+          "crime_fighter"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_im_pataut_herbert_von_bose": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "im_pataut_herbert_von_bose",
+        "traits": [
+          "interior_minister",
+          "paternal_autocrat",
+          "man_of_the_people"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "head_of_intel": {
+      "GER_hoi_authdem_wilhelm_canaris": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hoi_authdem_wilhelm_canaris",
+        "traits": [
+          "head_of_intel",
+          "authoritarian_democrat",
+          "naval_intelligence_specialist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "GER_hoi_pataut_reinhard_gehlen": {
+        "allowed": {
+          "original_tag": "GER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "head_of_intel",
+          "paternal_autocrat",
+          "master_saboteur"
+        ],
+        "cancel_if_invalid": true
+      }
+    }
+  }
+}

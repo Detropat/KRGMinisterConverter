@@ -1,0 +1,319 @@
+{
+  "ideas": {
+    "head_of_government": {
+      "MAF_hans_albert_von_lettow_vorbeck": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "paternal_autocrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_julian_scherner": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "paternal_autocrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_ernst_junger": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "national_populist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_ludwig_bockholt": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_wolf_heinrich": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "social_conservative"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "foreign_minister": {
+      "MAF_hermann_detzner": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "foreign_minister",
+          "paternal_autocrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_constantin_rembe": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "foreign_minister",
+          "national_populist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_rudolf_asmis": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "foreign_minister",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_raimund_schelcher": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "foreign_minister",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "justice_minister": {
+      "MAF_heinrich_kirchheim": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "justice_minister",
+          "paternal_autocrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_rudolf_asmis_jm": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "justice_minister",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_otto_rietzsch": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "social_conservative",
+          "justice_minister"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "economy_minister": {
+      "MAF_alfried_krupp": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "???",
+        "traits": [
+          "economy_minister",
+          "paternal_autocrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_heipold_jansen": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "economy_minister",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_kurt_weigelt": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "economy_minister",
+          "social_conservative"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_alfred_breuninger": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "economy_minister",
+          "social_conservative"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "interior_minister": {
+      "MAF_heinrich_goedecke": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "interior_minister",
+          "paternal_autocrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_theodore_eicke": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "interior_minister",
+          "national_populist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_hans_huttig": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "interior_minister",
+          "authoritarian_democrat"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "head_of_intel": {
+      "MAF_julian_scherner_intel": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "head_of_intel",
+          "paternal_autocrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_friedrich_heinicke": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "head_of_intel",
+          "national_populist"
+        ],
+        "cancel_if_invalid": true
+      },
+      "MAF_theodor_von_hippel": {
+        "allowed": {
+          "original_tag": "MAF"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "u",
+        "traits": [
+          "head_of_intel",
+          "national_populist"
+        ],
+        "cancel_if_invalid": true
+      }
+    }
+  }
+}

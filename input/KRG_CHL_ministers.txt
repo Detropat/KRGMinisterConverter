@@ -1,0 +1,113 @@
+###############
+#### Chile ####   #Coded under the command of Kommandant-Präsident Pluto
+###############
+
+ideas = {
+	head_of_government = {
+		PatAut_Bartolome_Blanche = {
+			allowed  = { original_tag = CHL }
+			visible = { NOT = { has_country_flag = Blanche_unavailable } }
+			removal_cost = -1
+
+			cost = 150
+			picture = CHL_PatAut_Blanche
+
+			traits = {
+				head_of_government
+				paternal_autocrat
+				old_general
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	foreign_minister = {
+		NatPop_Manuel_Serrano = {
+			allowed  = { original_tag = CHL }
+			visible = { NOT = { has_country_flag = Serrano_unavailable } }
+			removal_cost = -1
+
+			cost = 150
+			picture = CHL_NatPop_Serrano
+
+			traits = {
+				foreign_minister
+				national_populist
+				ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	economy_minister = {
+		NatPop_Carlos_Keller = {
+			allowed  = { original_tag = CHL }
+			visible = { NOT = { has_country_flag = Keller_unavailable } }
+			removal_cost = -1
+
+			cost = 150
+			picture = CHL_NatPop_Keller
+
+			traits = {
+				economy_minister
+				national_populist
+				incompetent_banker
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	interior_minister = {
+		AuthDem_Carlos_Ibanez = {
+			allowed  = { original_tag = CHL }
+			visible = { NOT = { has_country_flag = Ibanez_unavailable } }
+			removal_cost = -1
+
+			cost = 150
+			picture = CHL_AuthDem_Ibanez
+
+			traits = {
+				interior_minister
+				authoritarian_democrat
+				security_expert
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	justice_minister = {
+		PatAut_Juan_Gomez_Millas = {
+			allowed  = { original_tag = CHL }
+			visible = { NOT = { has_country_flag = Millas_unavailable } }
+			removal_cost = -1
+
+			cost = 150
+			picture = CHL_NatPop_Gomez_Millas
+
+			traits = {
+				justice_minister
+				paternal_autocrat
+				biased_attorney
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	head_of_intel = {
+		PatAut_PDI_Council = {
+			allowed  = { original_tag = CHL }
+			visible = { NOT = { has_country_flag = PDI_unavailable } }
+			removal_cost = -1
+
+			cost = 150
+			picture = CHL_PatAut_PDI
+
+			traits = {
+				head_of_intel
+				paternal_autocrat
+				technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+	}
+}

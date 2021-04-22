@@ -1,0 +1,181 @@
+{
+  "ideas": {
+    "head_of_government": {
+      "SER_hog_pataut_petar_zivkovic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "SER_hog_pataut_petar_zivkovic",
+        "traits": [
+          "head_of_government",
+          "paternal_autocrat",
+          "dictator"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SER_hog_pataut_bogoljub_jevtic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "SER_hog_pataut_bogoljub_jevtic",
+        "traits": [
+          "head_of_government",
+          "paternal_autocrat",
+          "happy_amateur"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "foreign_minister": {
+      "SER_fm_authdem_bozidar_puric": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "fm_authdem_bozidar_puric",
+        "traits": [
+          "foreign_minister",
+          "authoritarian_democrat",
+          "great_compromiser"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SER_fm_pataut_bogoljub_jevtic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "fm_pataut_bogoljub_jevtic",
+        "traits": [
+          "foreign_minister",
+          "paternal_autocrat",
+          "ideological_crusader"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "economy_minister": {
+      "SER_em_pataut_milan_srskic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "em_pataut_milan_srskic",
+        "traits": [
+          "economy_minister",
+          "paternal_autocrat",
+          "corrupt_kleptocrat"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SER_em_pataut_milorad_djordjevic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "em_pataut_milorad_djordjevic",
+        "traits": [
+          "economy_minister",
+          "paternal_autocrat",
+          "bank_president"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "justice_minister": {
+      "SER_jm_pataut_bozidar_maksimovic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "jm_pataut_bozidar_maksimovic",
+        "traits": [
+          "justice_minister",
+          "paternal_autocrat",
+          "impartial_judge"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "interior_minister": {
+      "SER_im_pataut_bozidar_maksimovic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "jm_pataut_bozidar_maksimovic",
+        "traits": [
+          "interior_minister",
+          "paternal_autocrat",
+          "crime_fighter"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SER_im_pataut_milan_acimovic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "im_pataut_milan_acimovic",
+        "traits": [
+          "interior_minister",
+          "paternal_autocrat",
+          "prince_of_terror"
+        ],
+        "cancel_if_invalid": true
+      },
+      "SER_im_pataut_milan_srskic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "im_pataut_milan_srskic",
+        "traits": [
+          "interior_minister",
+          "paternal_autocrat",
+          "secret_police_chief"
+        ],
+        "cancel_if_invalid": true
+      }
+    },
+    "head_of_intel": {
+      "SER_hoi_pataut_vladeta_milicevic": {
+        "allowed": {
+          "original_tag": "SER"
+        },
+        "available": "",
+        "removal_cost": -1,
+        "cost": 150,
+        "picture": "hoi_pataut_vladeta_milicevic",
+        "traits": [
+          "head_of_intel",
+          "paternal_autocrat",
+          "political_specialist"
+        ],
+        "cancel_if_invalid": true
+      }
+    }
+  }
+}
