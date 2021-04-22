@@ -1,5 +1,5 @@
 # Excluding IDE
 .idea
 /venv
-output/*.json
-input/*.txt
+output
+input
