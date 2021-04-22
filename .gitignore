@@ -1,5 +1,3 @@
 # Excluding IDE
 .idea
 /venv
-output
-input
