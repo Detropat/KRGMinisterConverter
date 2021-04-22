@@ -1,4 +1,4 @@
 # Excluding IDE
 .idea
 /venv
-/output/*
+/output/*.json
