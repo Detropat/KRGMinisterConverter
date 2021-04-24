@@ -1,18 +1,20 @@
-from pprint import pprint
+import csv
 
 from ClauseWizard import cwparse
 
 
 class KRGParser:
     # Constructor
-    def __init__(self, file, input_directory):
+    def __init__(self, file, input_directory, output_directory):
         self.file = file
         self.krg_element = None
         self.minister_key = None
         self.ministers = None
         self.inputDirectory = input_directory
+        self.outputDirectory = output_directory
         self.inputDirectoryLocalisation = self.inputDirectory + '\\localisation'
         self.country_tag = None
+        self.csv_ministers = None
 
     # Main method
     def main(self):
@@ -22,6 +24,9 @@ class KRGParser:
             # Render the KRG element, after the mapping is done that is according to the CSV mapping
             self.country_tag = self.file.split('_')[1]
             self.render_krg_element()
+
+            # Once here, it's time to create the CSV file
+            self.create_csv()
 
     # Render and map KRG element
     def render_krg_element(self):
@@ -42,7 +47,6 @@ class KRGParser:
                     print('Handling interior_minister')
                 else:
                     print('Invalid sub-level!')
-        exit(0)
 
     # Loop through all the available ministers
     def render_ministers(self, ministers, government_type):
@@ -56,8 +60,7 @@ class KRGParser:
             min_list['personality'] = self.find_personality()
             min_list['picture_name'] = self.render_picture_name()
 
-        pprint(min_list)
-        exit(0)
+            self.csv_ministers = min_list
 
     # Find the localised minister name
     def find_minister_name(self):
@@ -120,3 +123,12 @@ class KRGParser:
         picture_name = self.country_tag + '_' + picture_name[1] + '_' + picture_name[2]
 
         return picture_name
+
+    # Create the country specific CSV file
+    def create_csv(self):
+        print('Starting CSV creation for ' + self.country_tag)
+        with open(self.outputDirectory + '\\' + self.country_tag + '.csv', 'w') as c:
+            writer = csv.writer(c)
+
+            # Create the header
+            writer.writerow(self.country_tag + ',Ruling Cabinet - Start,Name,Ideology,Personality,Picturename')
