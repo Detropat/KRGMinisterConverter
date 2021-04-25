@@ -14,7 +14,7 @@ class KRGParser:
         self.outputDirectory = output_directory
         self.inputDirectoryLocalisation = self.inputDirectory + '\\localisation'
         self.country_tag = None
-        self.csv_ministers = None
+        self.csv_ministers = []
 
     # Main method
     def main(self):
@@ -37,14 +37,19 @@ class KRGParser:
                     self.render_ministers(ideas, 'Head of Government')
                 elif 'foreign_minister' == ideaKey:
                     print('Handling foreign_minister')
+                    self.render_ministers(ideas, 'Foreign Minister')
                 elif 'economy_minister' == ideaKey:
                     print('Handling economy_minister')
+                    self.render_ministers(ideas, 'Economic Minister')
                 elif 'interior_minister' == ideaKey:
                     print('Handling interior_minister')
+                    self.render_ministers(ideas, 'Interior Minister')
                 elif 'justice_minister' == ideaKey:
-                    print('Handling interior_minister')
+                    print('Handling justice_minister')
+                    self.render_ministers(ideas, 'Justice Minister')
                 elif 'head_of_intel' == ideaKey:
-                    print('Handling interior_minister')
+                    print('Handling head_of_itenl')
+                    self.render_ministers(ideas, 'Head of Intelligence')
                 else:
                     print('Invalid sub-level!')
 
@@ -55,12 +60,12 @@ class KRGParser:
             self.minister_key = min_key
             self.ministers = ministers
             min_list['government_type'] = government_type
-            min_list['name'] = self.find_minister_name()
+            min_list['name'] = str(self.find_minister_name()).replace('"', '')
             min_list['ideology'] = self.find_ideology()
             min_list['personality'] = self.find_personality()
             min_list['picture_name'] = self.render_picture_name()
 
-            self.csv_ministers = min_list
+        self.csv_ministers.append(min_list)
 
     # Find the localised minister name
     def find_minister_name(self):
@@ -84,6 +89,7 @@ class KRGParser:
     # Map the right ideology
     def find_ideology(self):
         ideology = self.find_ideology_in_traits()
+        print(ideology)
 
         if ideology == 'authoritarian_socialist':
             return 0
@@ -110,19 +116,19 @@ class KRGParser:
 
     # If the ideology is missing in the key, find it on the trait level
     def find_ideology_in_traits(self):
-        ideology = None
         for k, v in self.ministers:
             if k == 'traits':
-                if not len(v) == 3:
-                    ideology = str(v[1][0])
-                    # exit('Invalid amount of traits found')
+                # Clause if the files don't contain enough traits
+                if len(v) == 1:
+                    return str(v[0][0])
+                elif str(self.minister_key).lower() == 'nee_hog_jpk':
+                    return str(v[0][0])
+                elif len(v) == 2:
+                    return str(v[1][0])
+                elif not len(v) == 3:
+                    return str(v[1][0])
                 else:
-                    ideology = str(v[1][0])
-
-        if not ideology:
-            exit('No personality was mapped')
-
-        return ideology
+                    return str(v[1][0])
 
     # Find and map the personality
     def find_personality(self):
@@ -148,11 +154,13 @@ class KRGParser:
     # Create the country specific CSV file
     def create_csv(self):
         print('Starting CSV creation for ' + self.country_tag)
-        with open(self.outputDirectory + '\\' + self.country_tag + '.csv', 'w') as c:
+        with open(self.outputDirectory + '\\' + self.country_tag + '.csv', 'w', newline='\n', encoding="utf-8") as c:
             writer = csv.writer(c)
 
             # Create the header
             writer.writerow(
                 [self.country_tag, 'Ruling Cabinet - Start', 'Name', 'Ideology', 'Personality', 'Picturename'])
             # Insert the empty row. No clue why, just following the example
-            writer.writerow(['', '', '', '', '', ''])
+            # writer.writerow(['', '', '', '', '', ''])
+            for v in self.csv_ministers:
+                writer.writerow([v['government_type'], v['name'], v['ideology'], v['personality']])

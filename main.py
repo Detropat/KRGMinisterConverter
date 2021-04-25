@@ -19,7 +19,7 @@ def cleanup():
 # Main function
 def main():
     # First do some clean-up in the output folder
-    # cleanup()
+    cleanup()
     # Loop through the directory
     print('Start checking input folder')
     for filename in os.listdir(directory_input):
