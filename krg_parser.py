@@ -1,4 +1,5 @@
 import csv
+from pprint import pprint
 
 from ClauseWizard import cwparse
 
@@ -84,7 +85,18 @@ class KRGParser:
     # Map the right ideology
     def find_ideology(self):
         ideology = self.minister_key.split('_')
-        ideology = str(ideology[0]).lower()
+        ideologyTmp = str(ideology[0]).lower()
+
+        # Special clause for country specific mapping
+        if ideologyTmp == 'chi' or ideologyTmp == 'eng' or ideologyTmp == 'ger':
+            ideology = str(ideology[2]).lower()
+        # Special clause for the DNF mapping
+        elif ideologyTmp == 'dnf':
+            ideology = str(ideology[-1]).lower()
+        else:
+            ideology = ideologyTmp
+
+        pprint(ideology)
 
         if ideology == 'autsoc':
             return 0
@@ -100,6 +112,8 @@ class KRGParser:
             return 6
         elif ideology == 'authdem':
             return 7
+        elif ideology == 'pataut':
+            return 8
         else:
             exit('Missing right ideology mapping')
 
@@ -131,4 +145,7 @@ class KRGParser:
             writer = csv.writer(c)
 
             # Create the header
-            writer.writerow(self.country_tag + ',Ruling Cabinet - Start,Name,Ideology,Personality,Picturename')
+            writer.writerow(
+                [self.country_tag, 'Ruling Cabinet - Start', 'Name', 'Ideology', 'Personality', 'Picturename'])
+            # Insert the empty row. No clue why, just following the example
+            writer.writerow(['', '', '', '', '', ''])
