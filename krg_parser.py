@@ -82,7 +82,7 @@ class KRGParser:
                     break
 
         if minister_name is None:
-            exit('No minister name found for ' + self.minister_key)
+            minister_name = ''
 
         return minister_name
 
@@ -123,6 +123,8 @@ class KRGParser:
                     return str(v[0][0])
                 elif str(self.minister_key).lower() == 'nee_hog_jpk':
                     return str(v[0][0])
+                elif str(self.minister_key).lower() == 'maf_otto_rietzsch':
+                    return str(v[0][0])
                 elif len(v) == 2:
                     return str(v[1][0])
                 elif not len(v) == 3:
@@ -147,7 +149,7 @@ class KRGParser:
     # Render the picture name
     def render_picture_name(self):
         picture_name = self.minister_key.split('_')
-        picture_name = self.country_tag + '_' + picture_name[1] + '_' + picture_name[2]
+        picture_name = self.country_tag + '_' + str(picture_name[1]).upper() + '_' + picture_name[2]
 
         return picture_name
 
@@ -160,7 +162,7 @@ class KRGParser:
             # Create the header
             writer.writerow(
                 [self.country_tag, 'Ruling Cabinet - Start', 'Name', 'Ideology', 'Personality', 'Picturename'])
-            # Insert the empty row. No clue why, just following the example
-            # writer.writerow(['', '', '', '', '', ''])
+
             for v in self.csv_ministers:
-                writer.writerow([v['government_type'], v['name'], v['ideology'], v['personality']])
+                writer.writerow(
+                    ['x', v['government_type'], v['name'], v['ideology'], v['personality'], v['picture_name']])
