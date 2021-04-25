@@ -1,5 +1,4 @@
 import csv
-from pprint import pprint
 
 from ClauseWizard import cwparse
 
@@ -84,38 +83,40 @@ class KRGParser:
 
     # Map the right ideology
     def find_ideology(self):
-        ideology = self.minister_key.split('_')
-        ideologyTmp = str(ideology[0]).lower()
+        ideology = self.find_ideology_in_traits()
 
-        # Special clause for country specific mapping
-        if ideologyTmp == 'chi' or ideologyTmp == 'eng' or ideologyTmp == 'ger':
-            ideology = str(ideology[2]).lower()
-        # Special clause for the DNF mapping
-        elif ideologyTmp == 'dnf':
-            ideology = str(ideology[-1]).lower()
-        else:
-            ideology = ideologyTmp
-
-        pprint(ideology)
-
-        if ideology == 'autsoc':
+        if ideology == 'authoritarian_socialist':
             return 0
-        elif ideology == 'socdem':
+        elif ideology == 'social_democrat':
             return 3
-        elif ideology == 'revrep':
+        elif ideology == 'revolutionary_republican':
             return 2
-        elif ideology == 'soclib':
+        elif ideology == 'social_liberal':
             return 4
-        elif ideology == 'marklib':
+        elif ideology == 'market_liberal':
             return 5
-        elif ideology == 'soccon':
+        elif ideology == 'social_conservative':
             return 6
-        elif ideology == 'authdem':
+        elif ideology == 'authoritarian_democrat':
             return 7
-        elif ideology == 'pataut':
+        elif ideology == 'paternal_autocrat':
             return 8
         else:
             exit('Missing right ideology mapping')
+
+    # If the ideology is missing in the key, find it on the trait level
+    def find_ideology_in_traits(self):
+        ideology = None
+        for k, v in self.ministers:
+            if k == 'traits':
+                if not len(v) == 3:
+                    exit('Invalid amount of traits found')
+                ideology = str(v[1][0])
+
+        if not ideology:
+            exit('No personality was mapped')
+
+        return ideology
 
     # Find and map the personality
     def find_personality(self):
