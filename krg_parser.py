@@ -101,6 +101,10 @@ class KRGParser:
             return 7
         elif ideology == 'paternal_autocrat':
             return 8
+        elif ideology == 'radical_socialist':
+            return 1
+        elif ideology == 'national_populist':
+            return 9
         else:
             exit('Missing right ideology mapping')
 
@@ -110,8 +114,10 @@ class KRGParser:
         for k, v in self.ministers:
             if k == 'traits':
                 if not len(v) == 3:
-                    exit('Invalid amount of traits found')
-                ideology = str(v[1][0])
+                    ideology = str(v[1][0])
+                    # exit('Invalid amount of traits found')
+                else:
+                    ideology = str(v[1][0])
 
         if not ideology:
             exit('No personality was mapped')
@@ -124,7 +130,7 @@ class KRGParser:
         for k, v in self.ministers:
             if k == 'traits':
                 if not len(v) == 3:
-                    exit('Invalid amount of traits found')
+                    print('Invalid amount of traits found')
                 personality = str(v[-1][0])
 
         if not personality:
