@@ -19,7 +19,7 @@ class KRGParser:
     # Main method
     def main(self):
         # Start parsing
-        with open(self.inputDirectory + '\\' + self.file, 'r', encoding='iso-8859-1') as f:
+        with open(self.inputDirectory + '\\' + self.file, 'r', encoding='utf-8') as f:
             self.krg_element = cwparse(f.read(), False)
             # Render the KRG element, after the mapping is done that is according to the CSV mapping
             self.country_tag = self.file.split('_')[1]
@@ -55,8 +55,8 @@ class KRGParser:
 
     # Loop through all the available ministers
     def render_ministers(self, ministers, government_type):
-        min_list = dict()
         for min_key, ministers in ministers:
+            min_list = {}
             self.minister_key = min_key
             self.ministers = ministers
             min_list['government_type'] = government_type
@@ -65,7 +65,7 @@ class KRGParser:
             min_list['personality'] = self.find_personality()
             min_list['picture_name'] = self.render_picture_name()
 
-        self.csv_ministers.append(min_list)
+            self.csv_ministers.append(min_list)
 
     # Find the localised minister name
     def find_minister_name(self):
@@ -74,7 +74,7 @@ class KRGParser:
         minister_name = None
 
         # Need to search the file, since generally the YML files aren't properly formatted to be parsed
-        with open(self.inputDirectoryLocalisation + '\\' + localisation_file_name, 'r', encoding="utf8") as stream:
+        with open(self.inputDirectoryLocalisation + '\\' + localisation_file_name, 'r', encoding="utf-8") as stream:
             for line in stream:
                 if (self.minister_key + ':0') in line:
                     minister_name = line.split(':0')
@@ -89,7 +89,6 @@ class KRGParser:
     # Map the right ideology
     def find_ideology(self):
         ideology = self.find_ideology_in_traits()
-        print(ideology)
 
         if ideology == 'authoritarian_socialist':
             return 0
