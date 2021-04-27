@@ -147,8 +147,9 @@ class KRGParser:
 
     # Render the picture name
     def render_picture_name(self):
-        picture_name = self.minister_key.split('_')
-        picture_name = self.country_tag + '_' + str(picture_name[1]).upper() + '_' + picture_name[2]
+        picture_name = ''
+        if self.ministers[4]:
+            picture_name = self.ministers[4][1][0]
 
         return picture_name
 
