@@ -1,4 +1,5 @@
 import csv
+import os
 
 from ClauseWizard import cwparse
 
@@ -148,8 +149,31 @@ class KRGParser:
     # Render the picture name
     def render_picture_name(self):
         picture_name = ''
-        if self.ministers[4]:
-            picture_name = self.ministers[4][1][0]
+        for k, m in self.ministers:
+            if k == 'picture':
+                picture_name = m[0]
+                # Fixing annoying missing portaits
+                if picture_name == '???':
+                    picture_name = ''
+                    return picture_name
+
+                # Try to find a matching GFX
+                folder = self.inputDirectory + '\\gfx\\' + self.country_tag
+                if not os.path.exists(folder):
+                    print('No GFX folder. Stop searching')
+                    return picture_name
+
+                for filename in os.listdir(folder):
+                    search_file = filename.split('.')[0]
+                    if picture_name == search_file:
+                        filename = filename.split('.')
+                        if filename[1] != 'tga':
+                            f = '.'
+                            new_filename = filename[0] + '.tga'
+                            original = f.join(filename)
+                            pre, ext = os.path.splitext(folder + '\\' + original)
+                            os.rename(folder + '\\' + original, pre + '.tga')
+                            return picture_name
 
         return picture_name
 
